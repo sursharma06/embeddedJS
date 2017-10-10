@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Individual Pokemon</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td>Sprite</td>
+          <td>Type</td>
+          <td>Evolves From</td>
+          <td>Pokedex Number</td>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- INSERT RENDERED DATA HERE -->
+        <tr>
+          <td><img src=<%= myPokemon.image_url %>></td>
+          <td><%= myPokemon.type %></td>
+          <td><%= myPokemon.evolves_from %></td>
+          <td><a href=<%=myPokemon.id%>> <%=myPokemon.id%></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "express_templating",
+  "description": "Given the pokemon_list data set, in a `server.js` file, implement an Express server that renders the following `index.ejs` template when visiting `localhost:8000/pokemon`.",
+  "version": "1.0.0",
+  "main": "pokemon_list.js",
+  "author": "surbhi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
